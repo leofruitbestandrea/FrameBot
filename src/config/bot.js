@@ -161,11 +161,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "cork",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "corks",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "¥",
     },
 
     // Starting balance for new users.
@@ -462,7 +462,7 @@ export const botConfig = {
     counter: true,
 
     // Security and self-service systems.
-    verification: true,
+    verification: false,
     reactionRoles: true,
     joinToCreate: true,
 
